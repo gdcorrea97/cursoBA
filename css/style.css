@@ -7,7 +7,7 @@ header {
   left: 0;
   height: 20%;
   width: 100%;
-  background: url(menu2.jpg);
+  background: url(../img/menu2.jpg);
 }
 .izq{
   float: left;
@@ -17,43 +17,11 @@ header {
 }
 main{
   position: absolute;
-  height: 488px;
+  height: 506px;
   width: 80%;
   top: 20%;
   left: 0;
-  background: url(main.jpg);
-}
-.casa{
-	float: left;
-	margin-top: 100px;
-	margin-left: 40px;
-}
-.casa img{
-  width: 382px;
-  height: 288px;
-  border-radius: 10px;
-}
-.caracteristicas{
-	margin-left: 400px;
-	margin-top: 100px;
-	background-color: #666666;
-	width: 350px;
-	height: 288px;
-  border-radius: 10px;
-}
-aside {
-  position: absolute;
-  height: 488px;
-  width: 20%;
-  right: 0;
-  top: 20%;
-  background-color: #272727;
-}
-aside img{
-  border-radius: 10px;
-  object-fit: cover;
-  width: 100%;
-  height: 80%;
+  background: url(../img/main.jpg);
 }
 h3{
   margin-block-start: 0;
@@ -67,6 +35,14 @@ h5{
   margin-block-end: 0;
   color:black;
 }
+aside {
+  position: absolute;
+  height: 506px;
+  width: 20%;
+  right: 0;
+  top: 20%;
+  background-color: #272727
+}
 footer{  
   background-color: #000000;
   left: 0;
@@ -78,14 +54,20 @@ footer{
 footer p{
   color: white;
 }
-.box{
-  width: 250px;
-  height: 219px;
-  margin-top: 10px;
-  margin-left: 5px;
-  background-color: #666666;
+main img{
   border-radius: 10px;
+  object-fit: cover;
+  width: 100%;
+  height: 80%;
+}
+.box{
+  width: 300px;
+  height: 215px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #666666;
   border-style: solid;
+  border-radius: 10px;
   border-width: 5px;
   border-color: #666666;
 }
