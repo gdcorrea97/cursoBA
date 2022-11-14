@@ -15,33 +15,33 @@ header {
   width: 327px;
   height: 100%;
 }
+.barra{
+  float: right;
+}
 main{
+  grid-template-rows: 50%; 
+  display: grid; 
+  height: 80%;
   position: absolute;
   height: 506px;
-  width: 80%;
+  width: 73%;
   top: 20%;
   left: 0;
   background: url(../img/main.jpg);
 }
-h3{
-  margin-block-start: 0;
-  margin-block-end: 0;
-  color:black;
-}
-h5{
-  display:flex;
-  margin-inline-start: 0;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  color:black;
+.separacion{
+  column-count: 2;
+  justify-content: space-evenly;
+  display: flex;
+  float: inline-start;
 }
 aside {
   position: absolute;
   height: 506px;
-  width: 20%;
+  width: 27%;
   right: 0;
   top: 20%;
-  background-color: #272727
+  background-color: #272727;
 }
 footer{  
   background-color: #000000;
@@ -50,15 +50,23 @@ footer{
   height: 50px;
   width: 100%;
   position: absolute;
+  display:flex;
 }
 footer p{
   color: white;
+  float: left;
 }
 main img{
   border-radius: 10px;
   object-fit: cover;
   width: 100%;
   height: 80%;
+}
+.row{
+  width: 180px;
+  display: flex;
+  position: absolute;
+  right: 5%;
 }
 .box{
   width: 300px;
@@ -70,4 +78,10 @@ main img{
   border-radius: 10px;
   border-width: 5px;
   border-color: #666666;
+  position: relative;
+}
+.icono{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
 }

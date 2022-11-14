@@ -15,10 +15,13 @@ header {
   width: 327px;
   height: 100%;
 }
+.barra{
+  float: right;
+}
 main{
   position: absolute;
   height: 506px;
-  width: 80%;
+  width: 73%;
   top: 20%;
   left: 0;
   background: url(../img/main.jpg);
@@ -37,35 +40,19 @@ main{
 	margin-left: 400px;
 	margin-top: 100px;
 	background-color: #666666;
-	width: 350px;
+	width: 360px;
 	height: 288px;
   border-radius: 10px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 aside {
   position: absolute;
   height: 506px;
-  width: 20%;
+  width: 27%;
   right: 0;
   top: 20%;
   background-color: #272727;
-}
-aside img{
-  border-radius: 10px;
-  object-fit: cover;
-  width: 100%;
-  height: 80%;
-}
-h3{
-  margin-block-start: 0;
-  margin-block-end: 0;
-  color:black;
-}
-h5{
-  display:flex;
-  margin-inline-start: 0;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  color:black;
 }
 footer{  
   background-color: #000000;
@@ -74,9 +61,11 @@ footer{
   height: 50px;
   width: 100%;
   position: absolute;
+  display:flex;
 }
 footer p{
   color: white;
+  float: left;
 }
 .box{
   width: 250px;
@@ -88,4 +77,15 @@ footer p{
   border-style: solid;
   border-width: 5px;
   border-color: #666666;
+}
+.row{
+  width: 180px;
+  display: flex;
+  position: absolute;
+  right: 5%;
+}
+.icono{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
 }
